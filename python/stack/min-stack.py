@@ -32,7 +32,6 @@ class MinStack:
 		while  current.next:
 			current = current.next
 			min_val = min(current.value, min_val)
-			pass
 		return min_val
 
 # Your MinStack object will be instantiated and called as such:
